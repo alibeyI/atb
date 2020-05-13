@@ -1,0 +1,23 @@
+.header div{
+    margin: 30px 33px;
+}
+.header p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7F7F7F;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:400px){
+    .logo{
+        justify-content:space-around;
+    }
+}

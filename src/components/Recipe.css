@@ -1,0 +1,34 @@
+.table {
+    width: 483px;
+    height: 761px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.recipeBody{
+    margin: 0 auto;
+}
+@media screen and (max-width: 600px){
+    .table{
+        width: 450px ;
+    }
+}
+@media screen and (max-width: 500px){
+    .table{
+        width: 420px ;
+    }
+}
+@media screen and (max-width: 470px){
+    .table{
+        width: 350px ;
+    }
+}
+@media screen and (max-width: 415px){
+    .table{
+        width: 340px ;
+    }
+}
+@media screen and (max-width: 360px){
+    .table{
+        width: 360px ;
+    }
+}
